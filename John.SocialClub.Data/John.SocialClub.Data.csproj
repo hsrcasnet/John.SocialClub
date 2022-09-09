@@ -73,6 +73,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Service\ClubMemberServiceMock.cs" />
     <Compile Include="Service\Interface\IClubMemberService.cs" />
     <Compile Include="Service\ClubMemberService.cs" />
   </ItemGroup>
