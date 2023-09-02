@@ -9,6 +9,7 @@ namespace John.SocialClub.Data.Context
         public SocialClubDbContext()
             : base("SocialClub.DbConnection")
         {
+            // HACK: This needs to be refactored asap.
             Database.SetInitializer<SocialClubDbContext>(new SocialClubInitializer());
             Configuration.ProxyCreationEnabled = false;
         }
